@@ -92,7 +92,7 @@ endif
 # that Scheme and SCHEMEHEAPDIRS are set by Mf-cross to point to the host Scheme
 # implementation
 Scheme = ../bin/$m/scheme${ExeSuffix}
-export SCHEMEHEAPDIRS=../boot/%m
+#export SCHEMEHEAPDIRS=../boot/%m
 export CHEZSCHEMELIBDIRS=.
 
 # Define the libdirs separator character
